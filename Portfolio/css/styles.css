@@ -1,0 +1,393 @@
+body, header, nav, main, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+section {
+    background-color: rgb(245, 203, 203);
+    margin: 10px;
+    padding: 5px;
+}
+
+article {
+    background-color: white;
+    padding: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.more  {
+    text-align: center;
+    font-family: 'Candal';
+    margin: 10px;
+}
+
+.more a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(234, 125, 125);
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.more a:visited {
+    color: rgb(104, 32, 32);
+}
+
+.more a:hover {
+    color: rgb(245, 203, 203);
+}
+
+footer {
+    background-color: rgb(104, 32, 32);
+    text-align: center;
+    font-family: 'Poiret One';
+    padding: 10px;
+    color: white;
+}
+
+footer a:link {
+    color: white;
+}
+
+footer a:visited {
+    color: rgb(234, 125, 125);
+}
+
+footer a:hover {
+    color: rgb(245, 203, 203);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Poiret One';
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid rgb(234, 125, 125);
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(234, 125, 125);
+    color: white;
+}
+
+tr:nth-child(even) td {
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(234, 125, 125);
+    color: white;
+    font-family: 'Candal';
+    margin: 0;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+figcaption {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+h1 {
+    font-family: 'Candal';
+}
+
+h2 {
+    font-family: 'Candal';
+    text-align: center;
+    font-size: 30px;
+    color: rgb(234, 125, 125);
+}
+
+h3 {
+    font-family: 'Candal';
+    font-size: 20px;
+    color: rgb(104, 32, 32);
+}
+
+main p {
+    font-size: 20px;
+}
+
+#subscription {
+    text-align: center;
+    padding: 20px;
+}
+
+#subscription h2 {
+    color: rgb(234, 125, 125);
+}
+
+#subscription input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(234, 125, 125);
+    border-radius: 5px;
+}
+
+#subscription button {
+    background-color: rgb(234, 125, 125);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#subscription button:hover {
+    background-color: rgb(104, 32, 32);
+}
+
+#featured-news::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#local-events::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#featured-stories::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.container .image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    margin: 5px;
+}
+
+video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: var(--accent-color);
+}
+
+#about-description {
+    background-color: rgb(245, 203, 203);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#about-description h2 {
+    color: rgb(104, 32, 32);
+}
+
+#our-team {
+    background-color: rgb(104, 32, 32);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#our-team ul {
+    list-style-type: none;
+}
+
+#about-description h1 {
+    color: rgb(104, 32, 32);
+}
+
+#contact-us {
+    background-color: rgb(234, 125, 125);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact-us ul {
+    list-style-type: none;
+}
+
+#contact-us h2{
+    background-color: rgb(234, 125, 125);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contact Us Links */
+#contact-us a {
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+/*desktop*/
+@media only screen and (min-width: 768px) {
+    #featured-news article {
+        width: calc(33.33% - 20px);
+        margin: 0 10px 20px; 
+        float: left;
+    }
+
+    #local-events article {
+        width: calc(33.33% - 20px);
+        margin: 0 10px 20px; 
+        float: left;
+    }
+
+    nav {
+        background-color: rgb(234, 125, 125);
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    nav a:hover {
+        background-color: rgb(104, 32, 32);
+    }
+
+    video {
+        margin-right: 10px;
+    }
+
+    #about-description,
+    #our-team,
+    #contact-us {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    /* Ensure each section takes up the whole column */
+    #about-description,
+    #our-team,
+    #contact-us {
+        grid-column: span 1;
+    }
+
+}
+
+/*mobile*/
+@media only screen and (max-width: 768px) {
+    #featured-news article {
+        width: calc(100% - 20px); 
+        margin: 0 10px 20px; 
+        float: none;
+    }
+
+    #local-events article {
+        width: calc(100% - 20px); 
+        margin: 0 10px 20px; 
+        float: none;
+    }
+
+    nav {
+        background-color: rgb(234, 125, 125);
+        text-align: center;
+        font-size: 18px;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px 0;
+    }
+
+    nav a:hover {
+        background-color: rgb(104, 32, 32);
+    }
+
+    #subscription input[type="email"] {
+        width: calc(100% - 20px);
+        margin-right: 10px;
+    }
+
+    #subscription button {
+        width: calc(100% - 20px);
+        margin-left: 10px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        font-size: 14px;
+    }
+
+    .container {
+        max-width: 100%;
+      }
+
+    video {
+        margin-right: 0;
+    }
+
+    #about-description,
+    #our-team,
+    #contact-us {
+        display: block;
+    }
+}
+
